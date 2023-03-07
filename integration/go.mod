@@ -5,7 +5,7 @@ go 1.15
 require (
 	github.com/dapperlabs/testingdock v0.4.3-0.20200626075145-ea23fc16bb90
 	github.com/dgraph-io/badger/v2 v2.0.3
-	github.com/docker/docker v1.4.2-0.20190513124817-8c8457b0f2f8
+	github.com/docker/docker v1.6.1
 	github.com/docker/go-connections v0.4.0
 	github.com/go-openapi/strfmt v0.19.5 // indirect
 	github.com/jedib0t/go-pretty v4.3.0+incompatible
