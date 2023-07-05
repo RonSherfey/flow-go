@@ -16,8 +16,8 @@ require (
 	github.com/onflow/flow/protobuf/go/flow v0.2.0
 	github.com/plus3it/gorecurcopy v0.0.1
 	github.com/rs/zerolog v1.19.0
-	github.com/stretchr/testify v1.7.0
-	google.golang.org/grpc v1.31.1
+	github.com/stretchr/testify v1.8.1
+	google.golang.org/grpc v1.53.0
 	gopkg.in/yaml.v2 v2.3.0
 )
 
