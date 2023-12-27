@@ -5,10 +5,11 @@ go 1.15
 require (
 	github.com/dapperlabs/testingdock v0.4.3-0.20200626075145-ea23fc16bb90
 	github.com/dgraph-io/badger/v2 v2.0.3
-	github.com/docker/docker v1.4.2-0.20190513124817-8c8457b0f2f8
+	github.com/docker/docker v20.10.27+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/go-openapi/strfmt v0.19.5 // indirect
 	github.com/jedib0t/go-pretty v4.3.0+incompatible
+	github.com/moby/term v0.5.0 // indirect
 	github.com/onflow/cadence v0.14.4
 	github.com/onflow/flow-go v0.11.1 // replaced by version on-disk
 	github.com/onflow/flow-go-sdk v0.17.0
@@ -19,6 +20,7 @@ require (
 	github.com/stretchr/testify v1.7.0
 	google.golang.org/grpc v1.31.1
 	gopkg.in/yaml.v2 v2.3.0
+	gotest.tools/v3 v3.5.1 // indirect
 )
 
 // temp fix for MacOS build. See comment https://github.com/ory/dockertest/issues/208#issuecomment-686820414
